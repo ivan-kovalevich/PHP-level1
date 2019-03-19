@@ -1,0 +1,62 @@
+body {
+	font-family:Trebuchet MS,sans-serif;
+	font-size:16px;
+	width: 1200px;
+    margin: 0px auto;
+    padding: 0px;
+}
+p {
+	margin: 10px 5px;
+}
+.menu {
+	width:100%;
+	display:flex;
+	justify-content:flex-end;
+	list-style-type: none;
+	padding-inline-start: 0;
+}
+.menu li {
+	margin: 5px;
+}
+.menu li a {
+	text-decoration:none;
+	color:#33A56A;
+}
+.menu li a:hover {
+	text-decoration: underline;
+}
+h1 {
+	text-align:center;
+}
+.calc {
+	text-align:center;
+	margin:0 auto;
+	border:1px solid #008500;
+	width:190px;
+}
+.calc input, .calc select{
+	margin: 5px;
+}
+.calc input:focus, .calc select:focus {
+	outline: none;
+}
+.form_comments {
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+}
+.form_comments input, .form_comments textarea {
+	margin:5px;
+}
+.form_comments input {
+	width:200px;
+}
+.form_comments textarea {
+	width:500px;
+	resize: none;
+}
+
+footer {
+	widt:100%;
+	text-align:center;
+}
